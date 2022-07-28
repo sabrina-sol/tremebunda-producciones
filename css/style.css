@@ -265,6 +265,11 @@ font-size: 30px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 2s;
+}
+
+.gridGaleria div img:hover {
+    transform: scale(1.08);
 }
 
 .img5Grid {
@@ -390,6 +395,11 @@ footer img {
     width: 50px;
     height: 50px;
     margin: 0 0 0 10px;
+    transition: 1s;
+}
+
+.rrss:hover {
+    transform: scale(1.2);
 }
 
 /* -------------------------------------------------------------------------- */
