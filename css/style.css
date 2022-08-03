@@ -165,9 +165,26 @@ font-size: 30px;
     font-style: italic;
     font-family: shrikhand;
     letter-spacing: 2px;
+    text-align: center;
 }
 
-.flexContainerHome {
+.carouselIndex {
+    padding: 20px 0 20px 0;
+}
+
+.carouselIndexImg {
+    height: 80vh;
+}
+
+.carouselIndexImg div div h2 {
+    font-size: 40px;
+}
+
+.carouselIndexImg div div p {
+    font-size: 20px;
+}
+
+/*.flexContainerHome {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -195,7 +212,7 @@ font-size: 30px;
 .producciones div div p {
     margin: 5px 0 0 6px;
     font-size: 18px;
-}
+}*/
 
 /* ------------------------------ QUIÉNES SOMOS ----------------------------- */
 
@@ -363,7 +380,8 @@ footer {
 
 .menuFooter {
     list-style: none;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
+    padding: 0;
 }
 
 .menuFooter li a {
@@ -417,7 +435,7 @@ footer img {
 
 /* --------------------------------- HEADER --------------------------------- */
 
-@media screen and (max-width:951px) {
+/*@media screen and (max-width:951px) {
     header {
         flex-direction: column;
     }
@@ -428,7 +446,7 @@ footer img {
         flex-direction: column;
         text-align: center;
     }
-}
+}*/
 
 /* ---------------------------------- INDEX --------------------------------- */
 @media screen and (max-width:951px) {
