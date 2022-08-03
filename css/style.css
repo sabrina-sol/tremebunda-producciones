@@ -17,6 +17,15 @@ body {
 
 header {
     background-color: black;
+}
+
+header nav div img {
+    width: 150px;
+    height: 150px;
+}
+
+/*header {
+    background-color: black;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -52,7 +61,7 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: overline;
     background-color: #737373;
-}
+}*/
 
 /* -------------------------------------------------------------------------- */
 /*                                    MAIN                                    */
