@@ -19,6 +19,10 @@ header {
     background-color: black;
 }
 
+.navItem:active {
+    background-color: #BFBFBF;
+}
+
 header nav div img {
     width: 150px;
     height: 150px;
@@ -147,6 +151,7 @@ font-size: 30px;
 .itemsServicios div h3 {
     margin: 12px 0 12px 0;
     transition: 2s;
+    font-size: 20px;
 }
 
 .itemsServicios div h3:hover {
@@ -401,10 +406,12 @@ footer div {
 footer h3 {
     font-family: courgette;
     margin: 0 0 0 10px;
+    font-size: 30px;
 }
 
 footer h4 {
     margin: 0 0 20px 10px;
+    font-size: 20px;
 }
 
 footer p {
@@ -432,19 +439,6 @@ footer img {
 /* -------------------------------------------------------------------------- */
 
 /* --------------------------------- HEADER --------------------------------- */
-
-/*@media screen and (max-width:951px) {
-    header {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:730px) {
-    header nav ul{
-        flex-direction: column;
-        text-align: center;
-    }
-}*/
 
 /* ---------------------------------- INDEX --------------------------------- */
 @media screen and (max-width:951px) {
