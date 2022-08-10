@@ -1,0 +1,15 @@
+header {
+    background-color: black;
+    nav {
+        div {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}
+
+.navItem:active {
+    background-color: #BFBFBF;
+}
