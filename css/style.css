@@ -146,11 +146,11 @@ h1 {
   margin: 0 40px 10px 25px;
   border-radius: 100%; }
 
-.drectoraText {
+.directoraText {
   margin: 0 25px 0 0; }
-  .drectoraText h2 {
+  .directoraText h2 {
     font-size: 35px; }
-  .drectoraText p {
+  .directoraText p {
     font-size: 25px;
     margin: 10px 0 0 0;
     line-height: 1,5cm;
@@ -181,6 +181,9 @@ h1 {
 .img5Grid {
   grid-column: -3/-1; }
 
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
 footer {
   color: white;
   background-color: black;

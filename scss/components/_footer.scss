@@ -1,3 +1,9 @@
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+
+@import "../base/mixin";
+
 footer {
     color: white;
     background-color: black;
@@ -10,8 +16,7 @@ footer {
     div {
         margin: 25px 0 0 0;
         img {
-            width: 100px;
-            height: 100px;
+            @include size (100px, 100px);
         }
         h3 {
             font-family: courgette;
@@ -47,8 +52,7 @@ footer {
 }
 
 .rrss {
-    width: 50px;
-    height: 50px;
+    @include size (50px, 50px);
     margin: 0 0 0 10px;
     transition: 1s;
     &:hover {

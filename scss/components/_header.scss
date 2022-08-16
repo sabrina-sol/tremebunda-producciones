@@ -1,12 +1,12 @@
 @import "../base/variables";
+@import "../base/mixin";
 
 header {
     background-color: black;
     nav {
         div {
             img {
-                width: 150px;
-                height: 150px;
+                @include size (150px, 150px);
             }
         }
     }
