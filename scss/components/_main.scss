@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/maps";
 @import "../base/mixin";
 
 h1 {
@@ -27,8 +28,8 @@ h1 {
     flex-direction: column;
     justify-content: start;
     h1 {
-        font-family: courgette;
-        font-size: 50px;
+        font-family: map-get($logo, font-family);
+        font-size: map-get($logo, fs-principal);
     }
     p {
         margin: 0 600px 0 20px;
@@ -199,8 +200,7 @@ h1 {
     gap: 5px;
     div {
         img {
-            width: 100%;
-            height: 100%;
+            @include size (100%, 100%);
             object-fit: cover;
             transition: 2s;
             &:hover {

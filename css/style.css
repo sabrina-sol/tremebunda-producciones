@@ -200,8 +200,8 @@ footer {
       height: 100px; }
     footer div h3 {
       font-family: courgette;
-      margin: 0 0 0 10px;
-      font-size: 30px; }
+      font-size: 30px;
+      margin: 0 0 0 10px; }
     footer div h4 {
       margin: 0 0 20px 10px;
       font-size: 20px; }
