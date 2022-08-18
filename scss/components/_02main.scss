@@ -60,9 +60,8 @@ h1 {
 }
 
 .itemsServicios {
-    display: flex;
+    @extend %flexAIStart;
     justify-content: space-around;
-    align-items: flex-start;
     div {
         margin: 25px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
@@ -212,4 +211,15 @@ h1 {
 
 .img5Grid {
     grid-column: -3/-1;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  CONTACTO                                  */
+/* -------------------------------------------------------------------------- */
+
+.form {
+    margin: 10px 15px 15px 25px;
+    div {
+        margin: 10px 0 15px 0;
+    }
 }

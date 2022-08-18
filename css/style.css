@@ -9,6 +9,13 @@
 body {
   font-family: albert sans; }
 
+/* -------------------------------------------------------------------------- */
+/*                                   HEADER                                   */
+/* -------------------------------------------------------------------------- */
+.itemsServicios, footer {
+  display: flex;
+  align-items: flex-start; }
+
 header {
   background-color: black; }
   header nav div img {
@@ -17,6 +24,10 @@ header {
 
 .navItem:active {
   background-color: #BFBFBF; }
+
+.itemsServicios, footer {
+  display: flex;
+  align-items: flex-start; }
 
 h1 {
   font-family: shrikhand;
@@ -67,9 +78,7 @@ h1 {
   margin: 20px 0 30px 0; }
 
 .itemsServicios {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start; }
+  justify-content: space-around; }
   .itemsServicios div {
     margin: 25px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
@@ -182,16 +191,26 @@ h1 {
   grid-column: -3/-1; }
 
 /* -------------------------------------------------------------------------- */
+/*                                  CONTACTO                                  */
+/* -------------------------------------------------------------------------- */
+.form {
+  margin: 10px 15px 15px 25px; }
+  .form div {
+    margin: 10px 0 15px 0; }
+
+/* -------------------------------------------------------------------------- */
 /*                                   FOOTER                                   */
 /* -------------------------------------------------------------------------- */
+.itemsServicios, footer {
+  display: flex;
+  align-items: flex-start; }
+
 footer {
   color: white;
   background-color: black;
   width: 100%;
   padding: 0 0 30px 0;
-  display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   flex-wrap: wrap; }
   footer div {
     margin: 25px 0 0 0; }
