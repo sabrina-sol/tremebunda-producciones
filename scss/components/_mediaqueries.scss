@@ -3,6 +3,8 @@
 /* -------------------------------------------------------------------------- */
 /* ---------------------------------- INDEX --------------------------------- */
 
+@import "../base/extends";
+
 @media screen and (max-width:951px) {
     .hero {
         P {
@@ -34,9 +36,7 @@
     }
     .itemsServicios {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        @extend %flexColumn;
     }
     .servicios {
         h2 {
@@ -88,8 +88,6 @@
 
 @media screen and (max-width:730px) {
     footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        @extend %flexColumn;
     }
 }
