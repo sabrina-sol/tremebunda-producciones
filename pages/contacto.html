@@ -10,6 +10,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -54,7 +55,28 @@
                 <label for="mail">Mail:</label> <br>
                 <input class="inputForm" type="email" name="mail">
             </div>
-            <div class="radioForm">
+            <div>
+                <p>Pronombre:</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Él
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Ella
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                    <label class="form-check-label" for="flexRadioDefault3">
+                        Elle
+                    </label>
+                </div>
+            </div>
+            <!-- <div class="radioForm">
                 <p>Pronombre:</p>
                 <div>
                     <label for="el">Él</label>
@@ -68,14 +90,14 @@
                     <label for="elle">Elle</label>
                     <input type="radio" name="elle">
                 </div>
-            </div>
+            </div>-->
             <div>
                 <p>Dejanos tu consulta:</p>
                 <textarea class="inputForm" name="" id="" cols="30" rows="10"></textarea>
             </div>
             <input class="btn btn-secondary" type="submit" value="Enviar">
         </form>
-        
+
         <!--
         <form>
             <div class="mb-3">

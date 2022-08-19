@@ -197,6 +197,22 @@ h1 {
   margin: 10px 15px 15px 25px; }
   .form div {
     margin: 10px 0 15px 0; }
+    .form div textarea {
+      margin: 10px 0 0 0; }
+    .form div div {
+      margin: 0 10px 0 0; }
+
+.inputForm {
+  margin: 10px 0 10px 0;
+  outline: none; }
+  .inputForm:focus {
+    border-radius: 5px;
+    border: 2.5px solid #737373;
+    box-shadow: 0 0 3px 0 #737373; }
+
+.form-check-input:checked {
+  background-color: #737373;
+  border-color: #737373; }
 
 /* -------------------------------------------------------------------------- */
 /*                                   FOOTER                                   */
