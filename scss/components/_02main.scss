@@ -97,19 +97,57 @@ h1 {
     }
     div {
         div {
+            @include size (302px, 390px);
+            background-color: $bg-color;
+            border: 1.5px solid #737373;
+            border-radius: 10px;
+            transition: 1.3s;
+            &:hover {
+                transform: scale(1.08);
+            }
+            img {
+                @include size (300px, 230px);
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
             h3 {
-                margin: 5px 0 10px 6px;
+                font-family: shrikhand;
+                margin: 5px 0 10px 8px;
+                font-size: 28px;
+            }
+            h4 {
+                margin: 5px 0 15px 8px;
                 font-size: 20px;
             }
-            p {
-                margin: 5px 0 0 6px;
-                font-size: 18px;
+            a {
+                margin: 0 7px 0 7px;
+                padding: 5px;
+                text-decoration: none;
+                font-size: 17px;
+                color: white;
+                background-color: #737373;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                &:hover {
+                    background-color: $bg-color-animation;
+                    color: #404040;
+                    border: 1.5px solid #737373;
+                }
             }
         }
     }
 }
 
-.carouselIndex {
+.produccionesCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 25px 0 25px 0;
+    padding: 25px 0 25px 0;
+}
+
+/*.carouselIndex {
     padding: 20px 0 20px 0;
 }
 
@@ -125,7 +163,7 @@ h1 {
             }
         }
     }
-}
+}*/
 
 /* -------------------------------------------------------------------------- */
 /*                                QUIÉNES SOMOS                               */
@@ -214,6 +252,12 @@ h1 {
 }
 
 /* -------------------------------------------------------------------------- */
+/*                                PRODUCCIONES                                */
+/* -------------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
 
@@ -235,12 +279,12 @@ h1 {
     outline: none;
     &:focus {
         border-radius: 5px;
-        border: 2.5px solid #737373;
-        box-shadow: 0 0 3px 0 #737373;
+        border: 3px solid $focus-color;
+        box-shadow: 0 0 3.5px 0 $focus-color;
     }
 }
 
 .form-check-input:checked {
-    background-color: #737373;
-    border-color: #737373;
+    background-color: $focus-color;
+    border-color: $focus-color;
 }

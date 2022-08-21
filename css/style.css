@@ -106,24 +106,66 @@ h1 {
   letter-spacing: 2px;
   text-align: center; }
 
-.producciones div div h3 {
-  margin: 5px 0 10px 6px;
-  font-size: 20px; }
+.producciones div div {
+  width: 302px;
+  height: 390px;
+  background-color: #D9D9D9;
+  border: 1.5px solid #737373;
+  border-radius: 10px;
+  transition: 1.3s; }
+  .producciones div div:hover {
+    transform: scale(1.08); }
+  .producciones div div img {
+    width: 300px;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+  .producciones div div h3 {
+    font-family: shrikhand;
+    margin: 5px 0 10px 8px;
+    font-size: 28px; }
+  .producciones div div h4 {
+    margin: 5px 0 15px 8px;
+    font-size: 20px; }
+  .producciones div div a {
+    margin: 0 7px 0 7px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    background-color: #737373;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; }
+    .producciones div div a:hover {
+      background-color: #BFBFBF;
+      color: #404040;
+      border: 1.5px solid #737373; }
 
-.producciones div div p {
-  margin: 5px 0 0 6px;
-  font-size: 18px; }
+.produccionesCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 25px 0 25px 0;
+  padding: 25px 0 25px 0; }
 
-.carouselIndex {
-  padding: 20px 0 20px 0; }
+/*.carouselIndex {
+    padding: 20px 0 20px 0;
+}
 
 .carouselIndexImg {
-  height: 80vh; }
-  .carouselIndexImg div div h2 {
-    font-size: 40px; }
-  .carouselIndexImg div div p {
-    font-size: 20px; }
-
+    height: 80vh;
+    div {
+        div {
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}*/
 /* -------------------------------------------------------------------------- */
 /*                                QUIÉNES SOMOS                               */
 /* -------------------------------------------------------------------------- */
@@ -191,6 +233,9 @@ h1 {
   grid-column: -3/-1; }
 
 /* -------------------------------------------------------------------------- */
+/*                                PRODUCCIONES                                */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
 .form {
@@ -207,8 +252,8 @@ h1 {
   outline: none; }
   .inputForm:focus {
     border-radius: 5px;
-    border: 2.5px solid #737373;
-    box-shadow: 0 0 3px 0 #737373; }
+    border: 3px solid #737373;
+    box-shadow: 0 0 3.5px 0 #737373; }
 
 .form-check-input:checked {
   background-color: #737373;
