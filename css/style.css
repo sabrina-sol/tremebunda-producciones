@@ -125,7 +125,7 @@ h1 {
     margin: 5px 0 10px 8px;
     font-size: 28px; }
   .producciones div div h4 {
-    margin: 5px 0 15px 8px;
+    margin: 5px 8px 15px 8px;
     font-size: 20px; }
   .producciones div div a {
     margin: 0 7px 0 7px;
@@ -227,7 +227,7 @@ h1 {
     object-fit: cover;
     transition: 2s; }
     .gridGaleria div img:hover {
-      transform: scale(1.08); }
+      transform: scale(1.03); }
 
 .img5Grid {
   grid-column: -3/-1; }
@@ -235,6 +235,28 @@ h1 {
 /* -------------------------------------------------------------------------- */
 /*                                PRODUCCIONES                                */
 /* -------------------------------------------------------------------------- */
+.pagProducciones div div h2 {
+  font-family: shrikhand;
+  color: #404040;
+  font-size: 40px;
+  margin: 20px 0 20px 20px; }
+
+.pagProducciones div div h3 {
+  color: #404040;
+  font-size: 28px;
+  margin: 20px 20px 20px 25px; }
+
+.pagProducciones div div p {
+  font-size: 22px;
+  margin: 20px 20px 20px 25px; }
+  .pagProducciones div div p span {
+    color: #737373; }
+
+.imgCarousel {
+  width: 1300px;
+  height: 600px;
+  object-fit: cover; }
+
 /* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
