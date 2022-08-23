@@ -57,7 +57,7 @@ h1 {
     font-family: courgette;
     font-size: 50px; }
   .hero p {
-    margin: 0 600px 0 20px; }
+    margin: 0 500px 20px 20px; }
 
 .servicios {
   width: 100%;
@@ -320,9 +320,14 @@ footer {
 /*                                MEDIA QUERIES                               */
 /* -------------------------------------------------------------------------- */
 /* ---------------------------------- INDEX --------------------------------- */
+@media screen and (max-width: 1074px) {
+  .hero P {
+    margin: 0 300px 20px 20px; } }
+
 @media screen and (max-width: 951px) {
   .hero P {
-    margin: 0 300px 0 20px; } }
+    margin: 0 200px 20px 20px;
+    font-size: 25px; } }
 
 @media screen and (max-width: 858px) {
   .itemsServicios {
@@ -332,7 +337,8 @@ footer {
 
 @media screen and (max-width: 659px) {
   .hero {
-    justify-content: center; }
+    justify-content: center;
+    padding: 30px 0 50px 0; }
     .hero h1 {
       text-align: center;
       margin: 0 15px 0 15px; }
