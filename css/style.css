@@ -445,29 +445,31 @@ footer {
     height: 150px; } }
 
 /* ------------------------------ PRODUCCIONES ------------------------------ */
-@media screen and (max-width: 1034px) {
-  .imgCarousel {
-    width: 1034px;
-    height: 600px; } }
+/*@media screen and (max-width:1034px) {
+    .imgCarousel {
+        @include size (1034px, 600px);
+    }
+}
 
-@media screen and (max-width: 910px) {
-  .imgCarousel {
-    width: 910px;
-    height: 400px; } }
-
+@media screen and (max-width:910px) {
+    .imgCarousel {
+        @include size (910px, 400px);
+    }
+}*/
 @media screen and (max-width: 716px) {
-  .pagProducciones h1 {
-    text-align: center;
-    margin: 25px 10px 25px 20px; }
-  .pagProducciones .imgCarousel {
-    width: 715px;
-    height: 350px; } }
+  .pagProducciones {
+    /*.imgCarousel {
+            @include size (715px, 350px);
+        }*/ }
+    .pagProducciones h1 {
+      text-align: center;
+      margin: 25px 10px 25px 20px; } }
 
-@media screen and (max-width: 582px) {
-  .imgCarousel {
-    width: 582px;
-    height: 250px; } }
-
+/*@media screen and (max-width:582px) {
+    .imgCarousel {
+        @include size (582px, 250px);
+    }
+}*/
 /* --------------------------------- FOOTER --------------------------------- */
 @media screen and (max-width: 730px) {
   footer {
