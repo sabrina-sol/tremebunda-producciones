@@ -31,7 +31,7 @@ header {
 
 h1 {
   font-family: shrikhand;
-  margin: 20px 0 15px 20px;
+  margin: 20px 5px 15px 20px;
   letter-spacing: 1px;
   font-size: 35px; }
 
@@ -109,6 +109,7 @@ h1 {
 .producciones div div {
   width: 302px;
   height: 390px;
+  margin: 10px 3px 20px 3px;
   background-color: #D9D9D9;
   border: 1.5px solid #737373;
   border-radius: 10px;
@@ -149,23 +150,6 @@ h1 {
   margin: 25px 0 25px 0;
   padding: 25px 0 25px 0; }
 
-/*.carouselIndex {
-    padding: 20px 0 20px 0;
-}
-
-.carouselIndexImg {
-    height: 80vh;
-    div {
-        div {
-            h2 {
-                font-size: 40px;
-            }
-            p {
-                font-size: 20px;
-            }
-        }
-    }
-}*/
 /* -------------------------------------------------------------------------- */
 /*                                QUIÉNES SOMOS                               */
 /* -------------------------------------------------------------------------- */
@@ -244,11 +228,12 @@ h1 {
 .pagProducciones div div h3 {
   color: #404040;
   font-size: 28px;
-  margin: 20px 20px 20px 25px; }
+  margin: 20px 25px 20px 25px; }
 
 .pagProducciones div div p {
   font-size: 22px;
-  margin: 20px 20px 20px 25px; }
+  margin: 20px 25px 20px 25px;
+  text-align: justify; }
   .pagProducciones div div p span {
     color: #737373; }
 
@@ -458,6 +443,30 @@ footer {
   .gridGaleria div img {
     width: 250px;
     height: 150px; } }
+
+/* ------------------------------ PRODUCCIONES ------------------------------ */
+@media screen and (max-width: 1034px) {
+  .imgCarousel {
+    width: 1034px;
+    height: 600px; } }
+
+@media screen and (max-width: 910px) {
+  .imgCarousel {
+    width: 910px;
+    height: 400px; } }
+
+@media screen and (max-width: 716px) {
+  .pagProducciones h1 {
+    text-align: center;
+    margin: 25px 10px 25px 20px; }
+  .pagProducciones .imgCarousel {
+    width: 715px;
+    height: 350px; } }
+
+@media screen and (max-width: 582px) {
+  .imgCarousel {
+    width: 582px;
+    height: 250px; } }
 
 /* --------------------------------- FOOTER --------------------------------- */
 @media screen and (max-width: 730px) {

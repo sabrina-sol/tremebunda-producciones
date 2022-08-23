@@ -211,6 +211,38 @@
     }
 }
 
+/* ------------------------------ PRODUCCIONES ------------------------------ */
+
+@media screen and (max-width:1034px) {
+    .imgCarousel {
+        @include size (1034px, 600px);
+    }
+}
+
+@media screen and (max-width:910px) {
+    .imgCarousel {
+        @include size (910px, 400px);
+    }
+}
+
+@media screen and (max-width:716px) {
+    .pagProducciones {
+        h1 {
+            text-align: center;
+            margin: 25px 10px 25px 20px;
+        }
+        .imgCarousel {
+            @include size (715px, 350px);
+        }
+    }
+}
+
+@media screen and (max-width:582px) {
+    .imgCarousel {
+        @include size (582px, 250px);
+    }
+}
+
 /* --------------------------------- FOOTER --------------------------------- */
 
 @media screen and (max-width:730px) {

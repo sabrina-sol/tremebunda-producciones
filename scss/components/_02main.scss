@@ -5,7 +5,7 @@
 
 h1 {
     font-family: shrikhand;
-    margin: 20px 0 15px 20px;
+    margin: 20px 5px 15px 20px;
     letter-spacing: 1px;
     font-size: 35px;
 }
@@ -98,6 +98,7 @@ h1 {
     div {
         div {
             @include size (302px, 390px);
+            margin: 10px 3px 20px 3px;
             background-color: $bg-color;
             border: 1.5px solid #737373;
             border-radius: 10px;
@@ -146,24 +147,6 @@ h1 {
     margin: 25px 0 25px 0;
     padding: 25px 0 25px 0;
 }
-
-/*.carouselIndex {
-    padding: 20px 0 20px 0;
-}
-
-.carouselIndexImg {
-    height: 80vh;
-    div {
-        div {
-            h2 {
-                font-size: 40px;
-            }
-            p {
-                font-size: 20px;
-            }
-        }
-    }
-}*/
 
 /* -------------------------------------------------------------------------- */
 /*                                QUIÉNES SOMOS                               */
@@ -267,11 +250,12 @@ h1 {
             h3 {
                 color: #404040;
                 font-size: 28px;
-                margin: 20px 20px 20px 25px;
+                margin: 20px 25px 20px 25px;
             }
             p {
                 font-size: 22px;
-                margin: 20px 20px 20px 25px;
+                margin: 20px 25px 20px 25px;
+                text-align: justify;
                 span {
                     color: #737373;
                 }
