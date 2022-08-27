@@ -7,7 +7,7 @@ h1 {
     font-family: shrikhand;
     margin: 20px 5px 15px 20px;
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: nth($font-size, 1);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -23,7 +23,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
     color: white;
-    font-size: 30px;
+    font-size: nth($font-size, 4);
     padding: 0 0 50px 0;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ h1 {
     background-color: $bg-color;
     padding: 20px 0 20px 0;
     h2 {
-        font-size: 33px;
+        font-size: nth($font-size, 3);
         margin: 0 0 10px 20px;
         padding: 30px 0 0 0;
         font-style: italic;
@@ -53,7 +53,7 @@ h1 {
 
 .subtituloServicios {
     h3 {
-        font-size: 30px;
+        font-size: nth($font-size, 4);
         text-align: center;
         margin: 20px 0 30px 0;
     }
@@ -87,7 +87,7 @@ h1 {
 
 .producciones {
     h2 {
-        font-size: 33px;
+        font-size: nth($font-size, 3);
         margin: 0 0 0 20px;
         padding: 30px 0 0 0;
         font-style: italic;
@@ -114,17 +114,17 @@ h1 {
             h3 {
                 font-family: shrikhand;
                 margin: 5px 0 10px 8px;
-                font-size: 28px;
+                font-size: nth($font-size, 5);
             }
             h4 {
                 margin: 5px 8px 15px 8px;
-                font-size: 20px;
+                font-size: nth($font-size, 8);
             }
             a {
                 margin: 0 7px 0 7px;
                 padding: 5px;
                 text-decoration: none;
-                font-size: 17px;
+                font-size: nth($font-size, 9);
                 color: white;
                 background-color: #737373;
                 border-radius: 5px;
@@ -154,7 +154,7 @@ h1 {
 
 .somos {
     p {
-        font-size: 25px;
+        font-size: nth($font-size, 6);
         margin: 20px 7px 35px 25px;
     }
 }
@@ -192,10 +192,10 @@ h1 {
 .directoraText {
     margin: 0 25px 0 0;
     h2 {
-        font-size: 35px;
+        font-size: nth($font-size, 2);
     }
     p {
-        font-size: 25px;
+        font-size: nth($font-size, 6);
         margin: 10px 0 0 0;
         line-height: 1,5cm;
         text-align: justify;
@@ -244,16 +244,16 @@ h1 {
             h2 {
                 font-family: shrikhand;
                 color: #404040;
-                font-size: 40px;
+                font-size: nth($font-size, 1);
                 margin: 20px 0 20px 20px;
             }
             h3 {
                 color: #404040;
-                font-size: 28px;
+                font-size: nth($font-size, 5);
                 margin: 20px 25px 20px 25px;
             }
             p {
-                font-size: 22px;
+                font-size: nth($font-size, 7);
                 margin: 20px 25px 20px 25px;
                 text-align: justify;
                 span {

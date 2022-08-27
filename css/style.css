@@ -33,7 +33,7 @@ h1 {
   font-family: shrikhand;
   margin: 20px 5px 15px 20px;
   letter-spacing: 1px;
-  font-size: 35px; }
+  font-size: 40px; }
 
 /* -------------------------------------------------------------------------- */
 /*                                    INDEX                                   */
@@ -132,7 +132,7 @@ h1 {
     margin: 0 7px 0 7px;
     padding: 5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     background-color: #737373;
     border-radius: 5px;
@@ -231,7 +231,7 @@ h1 {
   margin: 20px 25px 20px 25px; }
 
 .pagProducciones div div p {
-  font-size: 22px;
+  font-size: 22.5px;
   margin: 20px 25px 20px 25px;
   text-align: justify; }
   .pagProducciones div div p span {
@@ -393,7 +393,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 180px 180px; }
   .somos p {
-    font-size: 23px;
+    font-size: 22.5px;
     text-align: center; }
   .directoraImg img {
     width: 250px;
@@ -415,7 +415,7 @@ footer {
     width: 180px;
     height: 180px; }
   .directoraText h2 {
-    font-size: 26px; }
+    font-size: 25px; }
   .directoraText p {
     font-size: 18px; } }
 
