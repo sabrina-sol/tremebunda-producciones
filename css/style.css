@@ -12,10 +12,6 @@ body {
 /* -------------------------------------------------------------------------- */
 /*                                   HEADER                                   */
 /* -------------------------------------------------------------------------- */
-.itemsServicios, footer {
-  display: flex;
-  align-items: flex-start; }
-
 header {
   background-color: black; }
   header nav div img {
@@ -25,15 +21,21 @@ header {
 .navItem:active {
   background-color: #BFBFBF; }
 
+/* -------------------------------------------------------------------------- */
+/*                                    MAIN                                    */
+/* -------------------------------------------------------------------------- */
 .itemsServicios, footer {
   display: flex;
   align-items: flex-start; }
 
-h1 {
+h1, .servicios h2, .producciones h2, .pagProducciones div div h2 {
   font-family: shrikhand;
-  margin: 20px 5px 15px 20px;
-  letter-spacing: 1px;
-  font-size: 40px; }
+  letter-spacing: 1px; }
+
+/* ----------------------------------- H1 ----------------------------------- */
+h1 {
+  font-size: 40px;
+  margin: 20px 5px 15px 20px; }
 
 /* -------------------------------------------------------------------------- */
 /*                                    INDEX                                   */
@@ -51,8 +53,8 @@ h1 {
   font-size: 30px;
   padding: 0 0 50px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: start; }
+  justify-content: start;
+  flex-direction: column; }
   .hero h1 {
     font-family: courgette;
     font-size: 50px; }
@@ -68,9 +70,7 @@ h1 {
     font-size: 33px;
     margin: 0 0 10px 20px;
     padding: 30px 0 0 0;
-    font-style: italic;
-    font-family: shrikhand;
-    letter-spacing: 2px; }
+    font-style: italic; }
 
 .subtituloServicios h3 {
   font-size: 30px;
@@ -102,8 +102,6 @@ h1 {
   margin: 0 0 0 20px;
   padding: 30px 0 0 0;
   font-style: italic;
-  font-family: shrikhand;
-  letter-spacing: 2px;
   text-align: center; }
 
 .producciones div div {
@@ -139,8 +137,8 @@ h1 {
     display: flex;
     justify-content: center; }
     .producciones div div a:hover {
-      background-color: #BFBFBF;
       color: #404040;
+      background-color: #BFBFBF;
       border: 1.5px solid #737373; }
 
 .produccionesCards {
@@ -155,7 +153,7 @@ h1 {
 /* -------------------------------------------------------------------------- */
 .somos p {
   font-size: 25px;
-  margin: 20px 7px 35px 25px; }
+  margin: 20px 9px 35px 25px; }
 
 .gridQS {
   width: 100%;
@@ -220,7 +218,6 @@ h1 {
 /*                                PRODUCCIONES                                */
 /* -------------------------------------------------------------------------- */
 .pagProducciones div div h2 {
-  font-family: shrikhand;
   color: #404040;
   font-size: 40px;
   margin: 20px 0 20px 20px; }
@@ -273,6 +270,10 @@ h1 {
   display: flex;
   align-items: flex-start; }
 
+h1, .servicios h2, .producciones h2, .pagProducciones div div h2 {
+  font-family: shrikhand;
+  letter-spacing: 1px; }
+
 footer {
   color: white;
   background-color: black;
@@ -308,12 +309,12 @@ footer {
     .menuFooter li a:hover {
       text-decoration: underline; }
 
-.rrss {
+.rrssImg {
   width: 50px;
   height: 50px;
   margin: 0 0 0 10px;
   transition: 1s; }
-  .rrss:hover {
+  .rrssImg:hover {
     transform: scale(1.2); }
 
 /* -------------------------------------------------------------------------- */
@@ -386,15 +387,16 @@ footer {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 558px) {
-  h1 {
+  .somos h1 {
     text-align: center;
-    margin: 15px 15px 0 15px; }
-  .gridQS {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 180px 180px; }
+    margin: 15px 15px 0 15px;
+    font-size: 33px; }
   .somos p {
     font-size: 22.5px;
     text-align: center; }
+  .gridQS {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px; }
   .directoraImg img {
     width: 250px;
     height: 250px; }
@@ -435,7 +437,7 @@ footer {
 
 @media screen and (max-width: 550px) {
   .pagServicios h1 {
-    font-size: 28px;
+    font-size: 33px;
     margin-top: 30px; }
   .gridGaleria {
     grid-template-columns: 1fr 1fr;
@@ -459,7 +461,14 @@ footer {
 @media screen and (max-width: 716px) {
   .pagProducciones h1 {
     text-align: center;
-    margin: 25px 10px 25px 20px; } }
+    margin: 25px 10px 25px 20px;
+    font-size: 33px; }
+  .pagProducciones div div h2 {
+    font-size: 30px; }
+  .pagProducciones div div h3 {
+    font-size: 22.5px; }
+  .pagProducciones div div p {
+    font-size: 18px; } }
 
 @media screen and (max-width: 550px) {
   .imgCarousel {
@@ -467,7 +476,7 @@ footer {
     height: 250px; } }
 
 /* --------------------------------- FOOTER --------------------------------- */
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 968px) {
   footer {
     flex-direction: column;
     align-items: center;

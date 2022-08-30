@@ -2,3 +2,8 @@
     width: $width;
     height: $height;
 }
+
+@mixin flexJC ($flex, $justify) {
+    display: $flex;
+    justify-content: $justify;
+}

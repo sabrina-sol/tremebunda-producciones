@@ -1,13 +1,18 @@
+/* -------------------------------------------------------------------------- */
+/*                                    MAIN                                    */
+/* -------------------------------------------------------------------------- */
+
 @import "../base/variables";
 @import "../base/maps";
-@import "../base/extends";
 @import "../base/mixin";
+@import "../base/extends";
+
+/* ----------------------------------- H1 ----------------------------------- */
 
 h1 {
-    font-family: shrikhand;
-    margin: 20px 5px 15px 20px;
-    letter-spacing: 1px;
+    @extend %fontTitles;
     font-size: nth($font-size, 1);
+    margin: 20px 5px 15px 20px;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -25,9 +30,8 @@ h1 {
     color: white;
     font-size: nth($font-size, 4);
     padding: 0 0 50px 0;
-    display: flex;
+    @include flexJC (flex, start);
     flex-direction: column;
-    justify-content: start;
     h1 {
         font-family: map-get($logo, font-family);
         font-size: map-get($logo, fs-principal);
@@ -46,8 +50,7 @@ h1 {
         margin: 0 0 10px 20px;
         padding: 30px 0 0 0;
         font-style: italic;
-        font-family: shrikhand;
-        letter-spacing: 2px;
+        @extend %fontTitles;
     }
 }
 
@@ -91,8 +94,7 @@ h1 {
         margin: 0 0 0 20px;
         padding: 30px 0 0 0;
         font-style: italic;
-        font-family: shrikhand;
-        letter-spacing: 2px;
+        @extend %fontTitles;
         text-align: center;
     }
     div {
@@ -100,7 +102,7 @@ h1 {
             @include size (302px, 390px);
             margin: 10px 3px 20px 3px;
             background-color: $bg-color;
-            border: 1.5px solid #737373;
+            border: 1.5px solid $focus-color;
             border-radius: 10px;
             transition: 1.3s;
             &:hover {
@@ -125,15 +127,14 @@ h1 {
                 padding: 5px;
                 text-decoration: none;
                 font-size: nth($font-size, 9);
-                color: white;
-                background-color: #737373;
+                color: map-get($btn, color);
+                background-color: map-get($btn, bg-color);
                 border-radius: 5px;
-                display: flex;
-                justify-content: center;
+                @include flexJC (flex, center);
                 &:hover {
-                    background-color: $bg-color-animation;
-                    color: #404040;
-                    border: 1.5px solid #737373;
+                    color: map-get($btn-hover, color);
+                    background-color: map-get($btn-hover, bg-color);
+                    border: map-get($btn-hover, border);
                 }
             }
         }
@@ -141,8 +142,7 @@ h1 {
 }
 
 .produccionesCards {
-    display: flex;
-    justify-content: space-around;
+    @include flexJC (flex, space-around);
     flex-wrap: wrap;
     margin: 25px 0 25px 0;
     padding: 25px 0 25px 0;
@@ -155,7 +155,7 @@ h1 {
 .somos {
     p {
         font-size: nth($font-size, 6);
-        margin: 20px 7px 35px 25px;
+        margin: 20px 9px 35px 25px;
     }
 }
 
@@ -242,13 +242,13 @@ h1 {
     div {
         div {
             h2 {
-                font-family: shrikhand;
-                color: #404040;
+                @extend %fontTitles;
+                color: $font-color;
                 font-size: nth($font-size, 1);
                 margin: 20px 0 20px 20px;
             }
             h3 {
-                color: #404040;
+                color: $font-color;
                 font-size: nth($font-size, 5);
                 margin: 20px 25px 20px 25px;
             }
@@ -257,7 +257,7 @@ h1 {
                 margin: 20px 25px 20px 25px;
                 text-align: justify;
                 span {
-                    color: #737373;
+                    color: $focus-color;
                 }
             }
         }

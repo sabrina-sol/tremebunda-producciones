@@ -1,5 +1,18 @@
+@import "./variables";
+
 $logo:(
 font-family: courgette,
 fs-principal: 50px,
 fs-footer: 30px,
+);
+
+$btn:(
+color: white,
+bg-color: #737373,
+);
+
+$btn-hover:(
+color: #404040,
+bg-color: $bg-color-animation,
+border: 1.5px solid #737373,
 );

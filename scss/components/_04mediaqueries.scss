@@ -115,19 +115,20 @@
 }
 
 @media screen and (max-width:558px) {
-    h1 {
-        text-align: center;
-        margin: 15px 15px 0 15px;
-    }
-    .gridQS {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 180px 180px;
-    }
     .somos {
+        h1 {
+            text-align: center;
+            margin: 15px 15px 0 15px;
+            font-size: nth($font-size, 3);
+        }
         p {
             font-size: nth($font-size, 7);
             text-align: center;
         }
+    }
+    .gridQS {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 180px 180px;
     }
     .directoraImg {
         img {
@@ -197,7 +198,7 @@
 @media screen and (max-width:550px) {
     .pagServicios {
         h1 {
-            font-size: nth($font-size, 5);
+            font-size: nth($font-size, 3);
             margin-top: 30px;
         }
     }
@@ -235,6 +236,20 @@
         h1 {
             text-align: center;
             margin: 25px 10px 25px 20px;
+            font-size: nth($font-size, 3);
+        }
+        div {
+            div {
+                h2 {
+                    font-size: nth($font-size, 4);
+                }
+                h3 {
+                    font-size: nth($font-size, 7);
+                }
+                p {
+                    font-size: nth($font-size, 9);
+                }
+            }
         }
     }
 }
@@ -247,7 +262,7 @@
 
 /* --------------------------------- FOOTER --------------------------------- */
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:968px) {
     footer {
         flex-direction: column;
         align-items: center;
