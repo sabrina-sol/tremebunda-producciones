@@ -1,5 +1,5 @@
 <h1 align="center">🎭 Tremebunda Producciones 🎪</h1>
-<h3 align="center">Una productora de espectáculos en Buenos Aires</h3>
+<h3 align="center">Artist producer based in Buenos Aires</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
